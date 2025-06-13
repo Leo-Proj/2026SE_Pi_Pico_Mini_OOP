@@ -1,4 +1,7 @@
 from pedestrian_button import Pedestrian_Button
-from time import ticks_ms, ticks_diff
 
-ped_button = 
+button = Pedestrian_Button(22, False)
+
+print("Testing button")
+while True:
+    print(button.button_state(True))
