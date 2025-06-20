@@ -40,23 +40,3 @@ class Pedestrian_Button(Pin):
             self.__pedestrian_waiting = True
             if self.__debug:
                 print(f"Button pressed on Pin {self.__pin} at {current_time}ms")
-
-
-
-
-
-
-'''
-    Get the state of the button, not whether the button is being pressed or not pressed, but if the button has been pressed
-    '''
-
-
-
-    '''
-    Resets the pedestrian_waiting 
-    '''
-
-
-    '''
-    Records the state change without interupting current processes
-    '''

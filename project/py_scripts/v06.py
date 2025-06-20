@@ -3,5 +3,6 @@ from time import sleep
 
 buzzer = Audio_Notification(27, True)
 
-while True:
-    buzzer.warning_on()
+print("Testing high frequency short beep")
+buzzer.beep(5000, 100)
+sleep(2)

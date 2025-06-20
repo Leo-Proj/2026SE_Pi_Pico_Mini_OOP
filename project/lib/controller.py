@@ -1,6 +1,6 @@
 from led_light import Led_Light
 from pedestrian_button import Pedestrian_Button
-from audio_notification import Audio_Notifiation
+from audio_notification import Audio_Notification
 from time import sleep, time
 
 class TrafficLightSubsystem:
@@ -65,5 +65,3 @@ class PedestrianSubsystem:
     
     def reset_button(self):
         self.__button.button_state(False)
-
-    
