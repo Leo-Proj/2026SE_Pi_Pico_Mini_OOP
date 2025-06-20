@@ -23,4 +23,4 @@ sleep(1)
 led.toggle()
 sleep(1)
 if led.value == 0:
-    print(",toggle() ")
+    print(".toggle() .off() method passed")
